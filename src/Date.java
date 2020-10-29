@@ -16,7 +16,7 @@ public class Date extends GregorianCalendar implements Serializable {
 		return getProp(Calendar.DATE) + "," + getProp(Calendar.MONTH) + "," + getProp(Calendar.YEAR);
 	}
 
-	private String getProp(int year) {
-		return String.valueOf(super.get(year));
+	private String getProp(int type) {
+		return String.valueOf(super.get(type));
 	}
 }
