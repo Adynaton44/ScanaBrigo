@@ -55,7 +55,7 @@ public class Window extends JFrame implements ActionListener {
 
 		GridBagConstraints c = new GridBagConstraints();
 
-		String[] choices = { "Yes, I want ScanaBrigo premium with full access", "No, I am gay" };
+		String[] choices = { "Yes, I want ScanaBrigo premium with full access", "No, thanks" };
 		premium = new JComboBox(choices);
 
 		nameLabel = new JLabel("Name");
